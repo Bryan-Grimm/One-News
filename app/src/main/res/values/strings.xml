@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name"> One News</string>
+
+    <string-array name="cat">
+        <item>Categories</item>
+        <item>Top</item>
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>Gaming</item>
+        <item>Music</item>
+        <item>Politics</item>
+        <item>Science</item>
+        <item>Sport</item>
+        <item>Technology</item>
+    </string-array>
+    <string-array name="news_array">
+        <item>Select News</item>
+        <item>AP News</item>
+        <item>BBC Sport</item>
+        <item>Reuters</item>
+        <item>ESPN</item>
+        <item>Ars Technica</item>
+    </string-array>
+    <string-array name="set">
+        <item>Top</item>
+        <item>Latest</item>
+    </string-array>
+</resources>
+

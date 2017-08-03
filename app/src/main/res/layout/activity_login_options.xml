@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update News"
+        android:layout_marginBottom="32dp"
+        android:id="@+id/update_button"
+         />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_spinner"
+        android:layout_marginBottom="52dp"
+        android:layout_below="@id/update_button"
+        android:entries="@array/news_array"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat"
+        android:layout_below="@id/news_spinner"
+        android:layout_marginBottom="52dp"
+        android:entries="@array/cat"/>
+
+
+</RelativeLayout>
